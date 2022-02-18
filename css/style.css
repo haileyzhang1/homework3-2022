@@ -151,11 +151,6 @@ img{
 }
 
 @media screen and (min-width: 700px){
-  a.skip:focus{
-    text-align: left;
-    /* left: 0%;
-    top: 20px; */
-  }
   nav{
     padding-top: 35px;
     /*Requirement 11*/
@@ -167,7 +162,11 @@ img{
     margin-right:0;
   }
 
-  
+  a.skip:focus{
+    text-align: left;
+    top: 20px;
+    left: 0%;
+  }
   /* Requirements 12-15 here: */
   .container{
     grid-template-columns: 50px auto 500px auto 50px;

@@ -151,9 +151,10 @@ img{
 }
 
 @media screen and (min-width: 700px){
-  a.skip{
-    left: 0%;
-    top: 20px;
+  a.skip:focus{
+    text-align: left;
+    /* left: 0%;
+    top: 20px; */
   }
   nav{
     padding-top: 35px;

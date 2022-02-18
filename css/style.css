@@ -163,9 +163,10 @@ img{
   }
 
   a.skip:focus{
+    /* transform: translateY(0%); */
     text-align: left;
     top: 20px;
-    left: 0%;
+    left: 0px;
   }
   /* Requirements 12-15 here: */
   .container{
